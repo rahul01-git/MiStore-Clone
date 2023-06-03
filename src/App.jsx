@@ -10,6 +10,7 @@ import data from "./data/data.json";
 import HotAccessoriesMenu from "./components/HotAccessoriesMenu";
 import HotAccessories from "./components/HotAccessories";
 import ProductReviews from "./components/ProductReviews";
+import Videos from "./components/Videos";
 
 export default function App() {
   return (
@@ -78,6 +79,8 @@ export default function App() {
       </Routes>
       <Heading text="PRODUCT REVIEWS" />
       <ProductReviews productReviews={data.productReviews}/>
+      <Heading text="VIDEOS" />
+      <Videos videos={data.videos}/>
     </Router>
   );
 }
