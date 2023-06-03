@@ -9,6 +9,7 @@ import StarProducts from "./components/StarProducts";
 import data from "./data/data.json";
 import HotAccessoriesMenu from "./components/HotAccessoriesMenu";
 import HotAccessories from "./components/HotAccessories";
+import ProductReviews from "./components/ProductReviews";
 
 export default function App() {
   return (
@@ -68,11 +69,15 @@ export default function App() {
           element={
             <HotAccessories
               mobileAccessories={data.hotAccessories.mobileAccessories}
-              mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}
+              mobileAccessoriesCover={
+                data.hotAccessoriesCover.mobileAccessories
+              }
             />
           }
         />
       </Routes>
+      <Heading text="PRODUCT REVIEWS" />
+      <ProductReviews productReviews={data.productReviews}/>
     </Router>
   );
 }
