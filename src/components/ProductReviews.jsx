@@ -1,7 +1,7 @@
-import ProductReviewCard from "./ProductReviewCard"
+import {ProductReviewCard} from "./ProductReviewCard"
 import '../styles/ProductReviews.css'
 
-const ProductReviews = ({productReviews}) => {
+export const ProductReviews = ({productReviews}) => {
   return (
     <div className="productReviews">
         {
@@ -12,5 +12,3 @@ const ProductReviews = ({productReviews}) => {
     </div>
   )
 }
-
-export default ProductReviews

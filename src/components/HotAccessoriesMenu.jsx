@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import '../styles/HotAccessoriesMenu.css'
-const HotAccessoriesMenu = () => {
+export const HotAccessoriesMenu = () => {
   return (
     <div className="hotAccessoriesMenu">
       <NavLink className="hotAccessoriesLink" to="/music">
@@ -21,5 +21,3 @@ const HotAccessoriesMenu = () => {
     </div>
   );
 };
-
-export default HotAccessoriesMenu;

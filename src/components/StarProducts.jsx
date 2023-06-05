@@ -1,5 +1,6 @@
 import "../styles/StarProduct.css"
-const StarProduct = ({starProduct}) => {
+
+export const StarProducts = ({starProduct}) => {
     return (
         <div className="starProduct">
         <div> <a href={starProduct[0].url}> <img src={starProduct[0].image} alt="1st Product" /></a></div>
@@ -11,5 +12,3 @@ const StarProduct = ({starProduct}) => {
       </div>
     )
 }
-
-export default StarProduct

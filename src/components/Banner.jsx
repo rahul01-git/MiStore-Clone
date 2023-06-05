@@ -1,6 +1,6 @@
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-const Banner = ({banner}) => {
+export const Banner = ({banner}) => {
   return <Carousel fade> 
   {
     banner.end.map((item,idx)=>(
@@ -18,4 +18,3 @@ const Banner = ({banner}) => {
   </Carousel>;
 };
 
-export default Banner;

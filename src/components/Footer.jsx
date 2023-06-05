@@ -1,6 +1,6 @@
 import "../styles/Prefooter.css";
 import "../styles/Footer.css";
-const Footer = ({footer}) => {
+export const Footer = ({footer}) => {
   const repeatIcon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ const Footer = ({footer}) => {
       <div className="PreFooter2">
         <div>
           {" "}
-          <p>LET'S STAY IN TOUCH</p>
+          <p>LET US STAY IN TOUCH</p>
           <span>Get updates on sales specials and more</span>
         </div>
 
@@ -131,7 +131,7 @@ const Footer = ({footer}) => {
             />
             <button>›</button>
           </div>
-          <span>Thanks. You're on our email list for special offers.</span>
+          <span>Thanks. You are on our email list for special offers.</span>
         </div>
 
         <div>
@@ -199,5 +199,3 @@ const Footer = ({footer}) => {
     </>
   );
 };
-
-export default Footer;

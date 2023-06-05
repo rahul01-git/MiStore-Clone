@@ -1,0 +1,12 @@
+export { Navbar } from "./Navbar";
+export { PreNavbar } from "./PreNavbar";
+export { Slider } from "./Slider";
+export { Offers } from "./Offers";
+export { Heading } from "./Heading";
+export { HotAccessoriesMenu } from "./HotAccessoriesMenu";
+export { HotAccessories } from "./HotAccessories";
+export { ProductReviews } from "./ProductReviews";
+export { Videos } from "./Videos";
+export { Banner } from "./Banner";
+export { Footer } from "./Footer";
+export { StarProducts } from "./StarProducts";

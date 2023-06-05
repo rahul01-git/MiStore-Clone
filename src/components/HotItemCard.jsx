@@ -1,5 +1,5 @@
 import '../styles/HotItemCard.css'
-const HotItemCard = ({name,image,price,index}) => {
+export const HotItemCard = ({name,image,price,index}) => {
   return (
     <div className="hotItemCard">
         <img src={image} alt={`${index} product`} />
@@ -8,5 +8,3 @@ const HotItemCard = ({name,image,price,index}) => {
     </div>
   )
 }
-
-export default HotItemCard

@@ -1,5 +1,5 @@
 import '../styles/Heading.css'
-const Heading = ({text}) => {
+export const Heading = ({text}) => {
   return (
     <div className="heading">
       <div></div>
@@ -8,5 +8,3 @@ const Heading = ({text}) => {
     </div>
   );
 };
-
-export default Heading;

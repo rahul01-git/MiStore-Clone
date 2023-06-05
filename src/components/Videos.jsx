@@ -1,7 +1,7 @@
-import VideoCard from "./VideoCard";
+import {VideoCard} from "./VideoCard";
 import '../styles/Videos.css'
 
-const Videos = ({ videos }) => {
+export const Videos = ({ videos }) => {
   return (
     <div className="videos">
       {videos.map((item, idx) => (
@@ -16,4 +16,3 @@ const Videos = ({ videos }) => {
   );
 };
 
-export default Videos;

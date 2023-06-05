@@ -1,6 +1,6 @@
 import { Carousel } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css' 
-const Slider = ({ start }) => {
+export const Slider = ({ start }) => {
   return (
     <Carousel fade>
       {start.map((item,idx) => (
@@ -12,4 +12,3 @@ const Slider = ({ start }) => {
   );
 };
 
-export default Slider;
