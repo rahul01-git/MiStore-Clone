@@ -12,6 +12,7 @@ import HotAccessories from "./components/HotAccessories";
 import ProductReviews from "./components/ProductReviews";
 import Videos from "./components/Videos";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -84,6 +85,7 @@ export default function App() {
       <Videos videos={data.videos}/>
       <Heading text="IN THE PRESS" />
       <Banner banner={data.banner}/>
+      <Footer/>
     </Router>
   );
 }
